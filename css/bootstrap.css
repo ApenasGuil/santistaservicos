@@ -10238,3 +10238,6 @@ body {
   }
 }
 
+iframe {
+  border: 2px solid white;
+}

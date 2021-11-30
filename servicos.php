@@ -16,7 +16,7 @@
     <script src="js/bootstrap.js"></script>
     <script src="js/popper.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="#"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-202601995-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -25,8 +25,34 @@
         }
         gtag('js', new Date());
 
-        gtag('config', '#');
+        gtag('config', 'UA-202601995-1');
     </script>
+
+    <style>
+        .float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 40px;
+            right: 35px;
+            background-color: #25d366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 100;
+        }
+
+        .my-float {
+            margin-top: 16px;
+        }
+
+        .rodape {
+            background-color: rgba(4, 35, 57, 0.9);
+            font-family: 'Raleway';
+        }
+    </style>
 
     <link href="css/BubblegumSans-Regular.css" rel="stylesheet">
     <Title>Santista Serviços Terceirizados Eirele</Title>
@@ -34,12 +60,19 @@
 
 <body>
     <div class="container-fluid">
-        <div class="row mt-4">
-            <div class="offset-md-2"></div>
+
+        <div class="row mt-2 mb-2">
+            <a href="https://api.whatsapp.com/send?phone=5513974141021" class="float" target="_blank">
+                <i class="fab fa-whatsapp my-float"></i>
+            </a>
+        </div>
+
+        <div class="row mt-2 mb-2">
+            <div class="offset-md-1"></div>
             <div class="col-12 col-md-3 mt-5">
                 <img src="img/logo.jpg" class="img-fluid bordaAzul">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-7">
                 <h1 class="site-heading text-center text-white d-none d-lg-block">
                     <span class="site-heading-upper text-primary mb-3 titulo">Santista</span>
                     <span class="site-heading-lower text-primary mb-3 titulo">Serviços</span>
@@ -176,13 +209,13 @@
             <div class="offset-md-2"></div>
         </div>
 
-        <div class="row" id="mainNav">
-            <div class="col-md-12 align-self-center">
-                <p class="text-white text-center">Imagens: <a href="https://br.freepik.com/">Freepik</a></p>
-            </div>
-        </div>
-
     </div>
+    <footer class="rodape text-center text-white">
+        <div class="text-center p-3">
+            <p class="text-white text-center">Imagens: <a href="https://br.freepik.com/">Freepik</a></p>
+            <a class="text-white" href="santistaservicosterceirizados@gmail.com">santistaservicosterceirizados@gmail.com</a>
+        </div>
+    </footer>
 </body>
 
 </html>
