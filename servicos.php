@@ -182,24 +182,27 @@
         </div>
 
         <div class="row d-flex justify-content-around">
-            <div class="offset-md-2"></div>
+            <div class="offset-md-1"></div>
             <div class="col-md-3 mt-2 mt-sm-2">
                 <i class="card-text bgcar px-4">Limpeza de Vidros</i>
                 <img src="img/Vidro18x5.png" class="img-fluid rounded" alt="">
             </div>
-            <div class="offset-md-1"></div>
+            <div class="col-md-4 mt-2 mt-sm-2">
+                <i class="card-text bgcar px-4">Copeira</i>
+                <img src="img/Copeira8x5.png" class="img-fluid rounded" alt="">
+            </div>
             <div class="col-md-3 mt-2 mt-sm-2">
                 <i class="card-text bgcar px-4">Jardinagem e Conservação</i>
                 <img src="img/Jardinagem8x5.png" class="img-fluid rounded" alt="">
             </div>
-            <div class="offset-md-2"></div>
+            <div class="offset-md-1"></div>
         </div>
 
         <div class="row d-flex justify-content-around mb-3">
             <div class="offset-md-2"></div>
             <div class="col-md-3 mt-2 mt-sm-2">
-                <i class="card-text bgcar px-4">Copeira</i>
-                <img src="img/Copeira8x5.png" class="img-fluid rounded" alt="">
+                <i class="card-text bgcar px-4">Técnico em Manutenção</i>
+                <img src="img/tecnico8x5.jpg" class="img-fluid rounded" alt="">
             </div>
             <div class="offset-md-1"></div>
             <div class="col-md-3 mt-2 mt-sm-2">
