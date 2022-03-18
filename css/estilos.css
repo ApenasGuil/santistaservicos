@@ -1,6 +1,10 @@
-    font-family: 'Open Sans';
-    font-weight: 600;
-    font-style: normal;
-    font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: -0.025em;
+html,
+a {
+  font-size: 17px;
+}
+
+.btn-send {
+  font-weight: bold;
+  color: black;
+  background-color: #e6a756;
+}

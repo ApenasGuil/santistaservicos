@@ -10,11 +10,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/fontawesome-free-5.8.1-web/css/all.min.css" type="text/css">
+    <link rel="stylesheet" href="css/estilos.css" type="text/css">
     <link rel="shortcut icon" href="img/icon3.png">
-    <script src="js/jquery.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <script src="js/jquery.js"></script>
     <script src="js/javascript.js"></script>
     <script src="js/bootstrap.js"></script>
-    <script src="js/popper.js"></script>
+    <script src="js/popper.js"></script> -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-202601995-1"></script>
     <script>
@@ -74,8 +76,8 @@
             </div>
             <div class="col-md-7">
                 <h1 class="site-heading text-center text-white d-none d-lg-block">
-                    <span class="site-heading-upper text-primary mb-3 titulo">Santista</span>
-                    <span class="site-heading-lower text-primary mb-3 titulo">Serviços</span>
+                    <span class="site-heading-upper text-white mb-3 titulo">Santista</span>
+                    <span class="site-heading-lower text-white mb-3 titulo">Serviços</span>
                 </h1>
             </div>
             <div class="offset-md-1"></div>
@@ -87,17 +89,17 @@
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none text-primary" href="index">Santista Serviços</a>
+                    <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none text-white" href="index">Santista Serviços</a>
                     <div class="collapse navbar-collapse" id="navbarResponsive">
                         <ul class="navbar-nav mx-auto">
                             <li class="nav-item px-lg-4">
-                                <a class="nav-link text-uppercase text-expanded" href="index">Sobre nós</a>
+                                <a class="mx-3 nav-link text-uppercase text-expanded" href="index">Sobre nós</a>
                             </li>
                             <li class="nav-item active px-lg-4">
-                                <a class="nav-link text-uppercase text-expanded" href="servicos">Serviços<span class="sr-only">(current)</span></a>
+                                <a class="mx-3 nav-link text-uppercase text-expanded" href="servicos">Serviços<span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item px-lg-4">
-                                <a class="nav-link text-uppercase text-expanded" href="agendamento">Faça seu orçamento</a>
+                                <a class="mx-3 nav-link text-uppercase text-expanded" href="agendamento">Faça seu orçamento</a>
                             </li>
                         </ul>
                     </div>
@@ -219,6 +221,9 @@
             <a class="text-white" href="santistaservicosterceirizados@gmail.com">santistaservicosterceirizados@gmail.com</a>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>
