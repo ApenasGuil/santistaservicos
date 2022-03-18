@@ -150,6 +150,18 @@
                         <textarea class="form-control times" id="txtMensagem" name="ntxtMensagem" required></textarea>
                     </div>
 
+                    <div class="form-group">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="policy" required>
+                            <label class="form-check-label" for="policy">
+                                <label class="text-white" for="btncheck1">Eu li e concordo com os <a class="corperso" target="_blank" href="./policy-privacy.html">Termos de Uso e Política de Privacidade</a>.</label>
+                            </label>
+                            <div class="invalid-feedback">
+                                Você precisa aceitar antes de enviar.
+                            </div>
+                        </div>
+                    </div>
+
                     <button name="Submit" type="submit" class="btn btn-send mb-2">Enviar</button>
                 </form>
             </div>
