@@ -200,20 +200,22 @@
             <div class="offset-md-1"></div>
         </div>
 
-        <div class="row d-flex justify-content-around mb-3">
-            <div class="offset-md-2"></div>
+        <div class="row d-flex justify-content-around">
+            <div class="offset-md-1"></div>
             <div class="col-md-3 mt-2 mt-sm-2">
                 <i class="card-text bgcar px-4">Técnico em Manutenção</i>
                 <img src="img/tecnico8x5.jpg" class="img-fluid rounded" alt="">
             </div>
-            <div class="offset-md-1"></div>
+            <div class="col-md-4 mt-2 mt-sm-2">
+                <i class="card-text bgcar px-4">Síndico Profissional</i>
+                <img src="img/Sindico8x5.png" class="img-fluid rounded" alt="">
+            </div>
             <div class="col-md-3 mt-2 mt-sm-2">
                 <i class="card-text bgcar px-4">Recepcionista e Telefonista</i>
                 <img src="img/Recepcionista8x5.png" class="img-fluid rounded" alt="">
             </div>
-            <div class="offset-md-2"></div>
+            <div class="offset-md-1"></div>
         </div>
-
     </div>
     <footer class="rodape text-center text-white">
         <div class="text-center p-3">
