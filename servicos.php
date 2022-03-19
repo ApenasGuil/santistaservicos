@@ -216,6 +216,15 @@
             </div>
             <div class="offset-md-1"></div>
         </div>
+
+        <div class="row d-flex justify-content-around mb-3">
+            <div class="offset-md-4"></div>
+            <div class="col-md-4 mt-2 mt-sm-2">
+                <i class="card-text bgcar px-4">Segurança</i>
+                <img src="img/Seguranca8x5.png" class="img-fluid rounded" alt="">
+            </div>
+            <div class="offset-md-4"></div>
+        </div>
     </div>
     <footer class="rodape text-center text-white">
         <div class="text-center p-3">
